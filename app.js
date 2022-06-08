@@ -1,6 +1,6 @@
 // GLOBAL CONSTANTS
 
-const MY_API_KEY = 'RNtYFS9Q4vYDV1E5LLJsw58nQdlOZReC';
+const MY_API_KEY = '';
 const LIMIT = 9; 
 const RATING = 'g';
 
