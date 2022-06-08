@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your GIFs!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="title-header">So You Wanna Find Some GIFs?</h1>
+    <form action="search" method="get" class="gif-form">
+        <div class="gif-form">
+          <label for="search"></label>
+          <input type="text" value="" name="search" id="searchtext" required>
+        </div>
+        <div class="gif-form">
+          <input type="submit" value="Search Away!">
+        </div>
+      </form>
+
+      <div id="photo-area"></div>
+      <button id="showmore" class="hidden"> Show More GIFs! </button>
+
+    <script src="app.js"></script>
+</body>
+</html>
