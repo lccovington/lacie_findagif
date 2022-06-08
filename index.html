@@ -9,20 +9,24 @@
 </head>
 <body>
 
-    <h1 id="title-header">So You Wanna Find Some GIFs?</h1>
+    <h1 id="title-header" class="center">So You Wanna Find Some GIFs?</h1>
+    <div class="center">
     <form action="search" method="get" class="gif-form">
         <div class="gif-form">
           <label for="search"></label>
           <input type="text" value="" name="search" id="searchtext" required>
         </div>
         <div class="gif-form">
-          <input type="submit" value="Search Away!">
+          <input type="submit" id="search-buttion" value="Search Away!">
         </div>
       </form>
-
-      <div id="photo-area"></div>
+    </div>
+      <div class="gallery">
+        <div class="grid-container" id="photo-area"></div>
+      </div>
+      <div class="center">
       <button id="showmore" class="hidden"> Show More GIFs! </button>
-
+      </div>
     <script src="app.js"></script>
 </body>
 </html>
